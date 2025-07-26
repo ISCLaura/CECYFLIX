@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import peliculas from 'https://recomendaciones-backend-wvd5.onrender.com/data/peliculas.json';
+import peliculas from 'https://recomendaciones-backend-wvd5.onrender.com/src/data/peliculas.json';
 function App() {
 const [input, setInput] = useState('');
 const [peliculasFiltradas, setPeliculasFiltradas] = useState(peliculas);
